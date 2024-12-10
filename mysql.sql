@@ -18,7 +18,7 @@ CREATE TABLE IF NOT EXISTS movie(
     id int NOT NULL AUTO_INCREMENT PRIMARY KEY,
     title VARCHAR(20) NOT NULL,
     genre VARCHAR(20) NULL,
-    myyear DATE NULL,
+    myear DATE NULL,
     price INT NULL,
     photo VARCHAR(50) NULL
 );
