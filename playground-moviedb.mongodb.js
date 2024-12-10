@@ -1,5 +1,5 @@
 //사용하고 싶은 db 
-use('dju-php');
+use('dju-php'); 
 
 // 컬렉션에서 문서를 추가하기
 db.getCollection('moviedb').insertMany([
